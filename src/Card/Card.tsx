@@ -5,5 +5,5 @@ interface ICardProps {
 }
 
 export const Card = ({ title, backgroundColor, padding }: ICardProps) => {
-  return <div style={{ backgroundColor, padding }}>{title}</div>;
+  return <div style={{ backgroundColor, padding }}>{title} 12345</div>;
 };

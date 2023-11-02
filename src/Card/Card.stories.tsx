@@ -45,3 +45,11 @@ export const Primary: Story = {
     padding: '10px',
   },
 };
+
+export const Secondary: Story = {
+  args: {
+    title: 'My Card 222',
+    backgroundColor: 'green',
+    padding: '30px',
+  },
+};
